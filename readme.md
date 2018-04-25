@@ -42,7 +42,7 @@ npm install
 npm run dev
 ```
 
-Then edit your `.env` to meet your preferences and environment setup. The relevant code is most in the `/app` directory under the `App\Contracts`, `App\Carrier`, and `App\Truck` namespaces. When you are ready to setup the database just run `php artisan migrate` to create the tables.
+Then edit your `.env` to meet your preferences and environment setup. The relevant code is most in the `/app` directory under the `App\Store\Contracts`, `App\Carrier`, and `App\Truck` namespaces. When you are ready to setup the database just run `php artisan migrate` to create the tables.
 
 ## Events Table (Store)
 

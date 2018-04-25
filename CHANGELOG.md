@@ -15,3 +15,7 @@
 - Deleted route definitions from `routes/*` files
 - Added `public/js`, `public/css`, and `public/mix-manifest.json` paths to `.gitignore`
 - Added developer notes to `readme.md`
+- Added Composer scripts and dev dependencies for PHP beautification and reporting
+- Added `.php_cs` with configurations for code styling
+- Added `.php_cs.cache` to `.gitignore`
+- Added `<logging>` block to `phpunit.xml` for reporting
