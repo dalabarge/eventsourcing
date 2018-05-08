@@ -1,6 +1,8 @@
-# Coding with the Flow
+# Event Sourcing
 
-_A field guide to creating an event store in [Laravel PHP](http://laravel.com)._
+_Embrace change. Code with the flow. A field guide to creating an event store in [Laravel PHP](http://laravel.com)._
+
+![Event Sourcing](https://pbs.twimg.com/tweet_video_thumb/DcIxd9TV4AAqV9v.jpg)
 
 Does this sound familiar? Your boss keeps asking for more business intelligence from your consumer's information but at every turn you're unable to fill in the data gaps. Perhaps you've heard of DDD, CQRS, and event sourcing as possible solutions. Your interest is peaked but it seems like your favorite framework is just not setup to give you the needed tooling. Furthermore the new names and concepts are confusing and you're having a hard time keeping it all straight. It's like you're coding against the flow.
 
