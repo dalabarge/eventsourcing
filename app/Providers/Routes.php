@@ -2,8 +2,11 @@
 
 namespace App\Providers;
 
+use App\Carrier\Values\USDOT;
+use App\Truck\Values\VIN;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;
+use Ramsey\Uuid\Uuid;
 
 class Routes extends ServiceProvider
 {
@@ -21,6 +24,11 @@ class Routes extends ServiceProvider
      */
     public function boot()
     {
+        Route::pattern('id', '[0-9]+');
+        Route::pattern('usdot', USDOT::VALID_PATTERN);
+        Route::pattern('uuid', Uuid::VALID_PATTERN);
+        Route::pattern('vin', VIN::VALID_PATTERN);
+
         parent::boot();
     }
 
