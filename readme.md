@@ -4,7 +4,7 @@ _Embrace change. Code with the flow. A field guide to creating an event store in
 
 ![Event Sourcing](https://pbs.twimg.com/tweet_video_thumb/DcIxd9TV4AAqV9v.jpg)
 
-> **[Read the Blog Post](http://artisanscollaborative.test/blog/2018/05/08/event-sourcing-dallas-php):** Slides, photos, and video of the meetup are available on [Artisans Collaborative](http://artisanscollaborative.test/blog/2018/05/08/event-sourcing-dallas-php).
+> **[Read the Blog Post](http://artisanscollaborative.com/blog/2018/05/08/event-sourcing-dallas-php):** Slides, photos, and video of the meetup are available on [Artisans Collaborative](http://artisanscollaborative.com/blog/2018/05/08/event-sourcing-dallas-php).
 
 Does this sound familiar? Your boss keeps asking for more business intelligence from your consumer's information but at every turn you're unable to fill in the data gaps. Perhaps you've heard of DDD, CQRS, and event sourcing as possible solutions. Your interest is peaked but it seems like your favorite framework is just not setup to give you the needed tooling. Furthermore the new names and concepts are confusing and you're having a hard time keeping it all straight. It's like you're coding against the flow.
 
