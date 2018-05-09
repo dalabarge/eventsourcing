@@ -4,6 +4,8 @@ _Embrace change. Code with the flow. A field guide to creating an event store in
 
 ![Event Sourcing](https://pbs.twimg.com/tweet_video_thumb/DcIxd9TV4AAqV9v.jpg)
 
+> **[Read the Blog Post](http://artisanscollaborative.test/blog/2018/05/08/event-sourcing-dallas-php):** Slides, photos, and video of the meetup are available on [Artisans Collaborative](http://artisanscollaborative.test/blog/2018/05/08/event-sourcing-dallas-php).
+
 Does this sound familiar? Your boss keeps asking for more business intelligence from your consumer's information but at every turn you're unable to fill in the data gaps. Perhaps you've heard of DDD, CQRS, and event sourcing as possible solutions. Your interest is peaked but it seems like your favorite framework is just not setup to give you the needed tooling. Furthermore the new names and concepts are confusing and you're having a hard time keeping it all straight. It's like you're coding against the flow.
 
 Don't worry, you're in good company. This repo is the companion codebase to a talk given at the Dallas PHP meetup where, we went step-by-step building up an event store. We wrote the code needed to get started with event sourcing data models using automobiles as a non-trivial example case for our exploration of aggregates. We manufactured ourselves a truck and registered it with the DMV, storing all the changes as events along the way. Then we read back the stream of events to recreate a moment-in-time representation of our truck. We then rolled back to before it got into an accident and streamed forward to after it was re-painted - like it never happened.
@@ -34,7 +36,7 @@ Let's create an event store and start coding _with_ the flow.
 
 ## Installation
 
-Just clone down this repository and run:
+You can clone down this repository and run:
 
 ```
 cp .env.example .env
@@ -158,7 +160,7 @@ This is just a many to many table between trucks and carriers and has collated o
 
 | id | truck | carrier | vin | make | model | year | unit | color | lpn | region | usdot | name | drivers | trucks | interstate | active | expires_at | created_at | updated_at |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 460b0c4e-b5a1-4517-8514-cc514038d5f1| b61cda06-90b1-4c0c-8670-8047fd83d1d8 | 12345678901234567 | Ford | F-150 | 2019 | 2 | red | XYZ 123 | US-TX | 1234567 | Acme Transport Co. | 3 | 1 | true | true | 2019-03-31 23:59:59 | 2018-03-31 09:00:00 | 2018-05-10 19:30:00 |
+| 1 | 460b0c4e-b5a1-4517-8514-cc514038d5f1 | b61cda06-90b1-4c0c-8670-8047fd83d1d8 | 12345678901234567 | Ford | F-150 | 2019 | 2 | red | XYZ 123 | US-TX | 1234567 | Acme Transport Co. | 3 | 1 | true | true | 2019-03-31 23:59:59 | 2018-03-31 09:00:00 | 2018-05-10 19:30:00 |
 
 ## License
 
