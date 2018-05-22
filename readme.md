@@ -159,7 +159,7 @@ This is your typical read model table with the added benefit that you have some 
 This is just a many to many table between trucks and carriers and has collated on it all the joined values as columns. It therefore could have been created with simply `truck_id` and `carrier_id` as columns and called `carriers_trucks` table. This would then necessitate the need to combine the data together at request time for each request instead of only once at projection time. The goal of a projection is to be able to re-run the projection as often as the event store is modified so that projections are eventually consistent with their aggregates current state.
 
 | id | truck | carrier | vin | make | model | year | unit | color | lpn | region | usdot | name | drivers | trucks | interstate | active | expires_at | created_at | updated_at |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 460b0c4e-b5a1-4517-8514-cc514038d5f1 | b61cda06-90b1-4c0c-8670-8047fd83d1d8 | 12345678901234567 | Ford | F-150 | 2019 | 2 | red | XYZ 123 | US-TX | 1234567 | Acme Transport Co. | 3 | 1 | true | true | 2019-03-31 23:59:59 | 2018-03-31 09:00:00 | 2018-05-10 19:30:00 |
 
 ## License
